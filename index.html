@@ -7,22 +7,47 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="grid-glow"></div>
+
   <main class="page">
     <section class="hero">
-      <p class="eyebrow">AI Internship Assessment</p>
-      <h1>Course Query Chatbot</h1>
-      <p class="subtitle">
-        Ask about fees, duration, syllabus, eligibility, timings, learning mode, certification, or contact details.
-      </p>
+      <div class="hero-copy">
+        <p class="eyebrow">AI Internship Assessment</p>
+        <h1>Course Query Chatbot</h1>
+        <p class="subtitle">
+          A polished, browser-based chatbot for answering course fees, duration,
+          syllabus, eligibility, timings, certification, and support queries.
+        </p>
+        <div class="hero-badges">
+          <span>Static Website</span>
+          <span>Responsive UI</span>
+          <span>Animated Chat</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <span class="status-dot"></span>
+          <span>Live Demo Preview</span>
+        </div>
+        <div class="mini-chat">
+          <div class="mini-message bot">Hello! Ask me about courses.</div>
+          <div class="mini-message user">What is the fee for AI Foundations Bootcamp?</div>
+          <div class="mini-message bot">The fee is INR 24,999.</div>
+        </div>
+      </div>
     </section>
 
     <section class="chat-shell">
       <div class="chat-header">
         <div>
+          <p class="section-tag">Smart Assistant</p>
           <h2>CourseBot</h2>
-          <p>Answers course-related queries instantly</p>
+          <p class="chat-subtitle">Answers common course-related queries in seconds</p>
         </div>
-        <button id="clear-chat" type="button" class="secondary-button">Clear chat</button>
+        <button id="clear-chat" type="button" class="secondary-button">Clear Chat</button>
       </div>
 
       <div id="chat-messages" class="chat-messages" aria-live="polite"></div>
@@ -40,7 +65,7 @@
           id="user-input"
           name="user-input"
           type="text"
-          placeholder="Type your question here..."
+          placeholder="Ask about fees, duration, syllabus, eligibility..."
           autocomplete="off"
         >
         <button type="submit" class="primary-button">Send</button>
