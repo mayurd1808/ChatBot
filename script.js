@@ -110,7 +110,7 @@ function answerGeneralQuery(message) {
     return formatCourseList();
   }
 
-  return "I can help with course fees, duration, syllabus, eligibility, timings, mode, certification, and contact details. Try asking something like: What is the fee for AI Foundations Bootcamp?";
+  return "I can help with course fees, duration, syllabus, eligibility, timings, mode, certification, and contact details. Try asking: What is the fee for AI Foundations Bootcamp?";
 }
 
 function answerQuery(message) {
