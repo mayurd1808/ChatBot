@@ -1,44 +1,18 @@
 # Course Query Chatbot
 
-This project is a simple browser-based chatbot that answers course-related questions such as fees, duration, syllabus, eligibility, timings, learning mode, certification, and contact details.
+A browser-based chatbot for answering course-related queries such as fees, duration, syllabus, eligibility, timings, mode, certification, and contact details.
 
-## Features
+## Files
 
-- Works as a static website on GitHub Pages
-- Handles common course queries through a chat interface
-- Uses lightweight JavaScript intent detection
-- Includes quick question chips for demo purposes
-- Asks for the course name when a question is incomplete
+- `index.html`
+- `style.css`
+- `script.js`
 
-## Project Structure
+## Run
 
-```text
-.
-|-- index.html
-|-- style.css
-|-- script.js
-|-- app.py
-|-- data/
-|   `-- course_data.json
-`-- README.md
-```
-
-## Run Locally
-
-Open `index.html` in a browser, or deploy the repository to GitHub Pages.
-
-## Example Questions
-
-- What is the fee for AI Foundations Bootcamp?
-- How long is the Data Science Career Program?
-- Show me the syllabus for Automation with Python
-- What are the timings for the AI Foundations Bootcamp?
-- Is the Data Science Career Program online?
-- Do you provide certification for Automation with Python?
-- How can I contact admissions?
+Open `index.html` in a browser, or deploy these files to GitHub Pages.
 
 ## Notes
 
-- GitHub Pages cannot run Python code, so the live version uses `index.html`, `style.css`, and `script.js`.
-- The included `app.py` is still available if you want a simple Python CLI version.
-- This is intentionally lightweight and submission-friendly for an internship assessment.
+- This is a static frontend version, so it works on GitHub Pages.
+- The chatbot uses simple rule-based intent detection in JavaScript.
